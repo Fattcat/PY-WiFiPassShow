@@ -7,7 +7,10 @@ import socket
 # nazovPC
 nazovPC = socket.gethostname()
 
+#UPRAV PISMENO USBCKA
 usb_drive = "E:"
+#UPRAV PISMENO USBCKA
+
 folder_path = os.path.join(usb_drive, "WiFiHesla")
 
 # Vytvorenie priečinka, ak neexistuje
